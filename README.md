@@ -19,7 +19,7 @@ The results of this project can be reproduced in its entirety by running the R s
 ---
 
 ## Supplemental Materials
-Refer to the `docs/` folder for:
+Refer to the `main folder` folder and look for the supplemental methods (`sup-methods.pdf` and `sup-methods.qmd`) files. These contain:
 - Additional descriptions of the methodology and decisions for the analysis.
 - Additional visualizations.
 - A step-by-step walkthrough of how models were configured and run.
@@ -27,7 +27,7 @@ Refer to the `docs/` folder for:
 ---
 
 ## `excessmort` R package
-The conduct of this project heavily relied on the `excessmort` R package and the scientific manuscript that introduced the package.
+The conduct of this project relied heavily on the `excessmort` R package and the scientific manuscript that introduced the package.
 - Acosta RJ, Irizarry RA. "A flexible statistical framework for estimating excess mortality." *Epidemiology.* 2022;33(5):707–716. https://doi.org/10.1097/EDE.0000000000001445
 
 ---
