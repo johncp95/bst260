@@ -6,6 +6,10 @@ library(dplyr)
 library(knitr)
 library(ggplot2)
 
+# Download dataset and save in folder
+puerto_rico_counts <- excessmort::puerto_rico_counts
+saveRDS(puerto_rico_counts, file = file.path(getwd(), "../data/puerto_rico_counts.rds"))
+
 # Question 1 --------------------------------------------------------------
 # Q1 - Examine the population sizes by age group and sex.
 # Describe any interesting patterns.
